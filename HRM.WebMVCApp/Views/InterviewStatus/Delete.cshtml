@@ -1,0 +1,17 @@
+﻿@model InterviewStatusResponseModel
+<div class="container">
+    <form asp-controller="InterviewStatus" asp-action="Delete" method="post">
+        <input type="hidden" asp-for="ID" />
+        <div class="my-5 row col-12">
+            <label for="Type">Type</label>
+            <input asp-for="Type" class="form-control" disabled />
+            <span asp-validation-for="Type"></span>
+        </div>
+        <div class="my-5 row col-12 form-check">
+            <label for="IsActive">IsActive</label>
+            <input type="checkbox" class="form-check-input" asp-for="IsActive" disabled>
+            <span asp-validation-for="IsActive"></span>
+        </div>
+        <input type="submit" value="Add Interview Status" class="btn btn-danger" />
+    </form>
+</div>

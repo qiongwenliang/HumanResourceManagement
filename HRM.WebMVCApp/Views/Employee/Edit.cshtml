@@ -1,0 +1,37 @@
+﻿@model EmployeeResponseModel
+<div class="container">
+    <form asp-controller="Employee" asp-action="Edit" method="post">
+        <input type="hidden" asp-for="Id" />
+        <div class="my-5 row col-12">
+            <label for="FirstName">First Name</label>
+            <input asp-for="FirstName" class="form-control" />
+            <span asp-validation-for="FirstName"></span>
+        </div>
+        <div class="my-5 row col-12">
+            <label for="LastName">Last Name</label>
+            <input asp-for="LastName" class="form-control" />
+            <span asp-validation-for="LastName"></span>
+        </div>
+        <div class="my-5 row col-12">
+            <label for="EmailAddress">Email Address</label>
+            <input asp-for="EmailAddress" class="form-control" />
+            <span asp-validation-for="EmailAddress"></span>
+        </div>
+        <div class="my-5 row col-12 input-group date" data-provide="datepicker">
+            <label for="DateOfBirth">Date Of Birth </label>
+            <input asp-for="DateOfBirth" class="form-control" />
+            <span asp-validation-for="DateOfBirth"></span>
+        </div>
+        <div class="my-5 row col-12">
+            <label for="PhoneNumber">Phone Number</label>
+            <input asp-for="PhoneNumber" class="form-control" />
+            <span asp-validation-for="PhoneNumber"></span>
+        </div>
+        <div class="my-5 row col-12">
+            <label for="SSN">SSN</label>
+            <input asp-for="SSN" class="form-control" />
+            <span asp-validation-for="SSN"></span>
+        </div>
+        <input type="submit" value="Update Employee" class="btn btn-primary" />
+    </form>
+</div>

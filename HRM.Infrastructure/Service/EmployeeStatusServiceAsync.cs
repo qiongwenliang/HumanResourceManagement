@@ -37,7 +37,7 @@ namespace HRM.Infrastructure.Repository
             return employeeStatusRepositoryAsync.DeleteAsync(id);
         }
 
-        public async Task<IEnumerable<EmployeeStatusResponseModel>> GetAllCandidateAsync()
+        public async Task<IEnumerable<EmployeeStatusResponseModel>> GetAllEmployeeStatusAsync()
         {
             var result = await employeeStatusRepositoryAsync.GetAllAsync();
             if (result != null)
@@ -53,7 +53,7 @@ namespace HRM.Infrastructure.Repository
             return null;
         }
 
-        public async Task<EmployeeStatusResponseModel> GetCandidateByIdAsync(int id)
+        public async Task<EmployeeStatusResponseModel> GetEmployeeStatusByIdAsync(int id)
         {
             var result = await employeeStatusRepositoryAsync.GetByIdAsync(id);
             if (result != null)

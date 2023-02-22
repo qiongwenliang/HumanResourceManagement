@@ -46,7 +46,7 @@ namespace HRM.Infrastructure.Service
                     Id = x.Id,
                     Name = x.Name,
                     IsActive = x.IsActive
-                };
+                });
             }
             return null;
         }

@@ -1,0 +1,18 @@
+﻿@model InterviewFeedbackResponseModel
+<div class="container">
+    <form asp-controller="Feedback" asp-action="Create" method="post">
+        <input type="hidden" asp-for="Id" />
+        <div class="my-5 row col-12">
+            <label for="InterviewID">InterviewID</label>
+            <input asp-for="InterviewID" class="form-control" disabled />
+            <span asp-validation-for="InterviewID"></span>
+        </div>
+        <div class="my-5 row col-12">
+            <label for="Description">Description</label>
+            <input asp-for="Description" class="form-control" disabled />
+            <span asp-validation-for="Description"></span>
+        </div>
+
+        <input type="submit" value="Add Feedback" class="btn btn-danger" />
+    </form>
+</div>

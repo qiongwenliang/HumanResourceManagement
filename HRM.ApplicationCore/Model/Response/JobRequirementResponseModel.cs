@@ -18,4 +18,4 @@ namespace HRM.ApplicationCore.Model.Response
         public bool IsActive { get; set; }
     }
 }
-}
+

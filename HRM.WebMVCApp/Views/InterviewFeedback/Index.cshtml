@@ -1,0 +1,32 @@
+﻿@model IEnumerable<InterviewFeedbackResponseModel>;
+
+<div class="page-header">
+    <h1>List of Interview Feedbacks</h1>
+</div>
+
+<a asp-action="Create" asp-controller="Feedback">Add New Interview Feedback</a>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>InterviewID</th>
+            <th>Description</th>
+            <th>Abbr</th>
+            <th colspan="2">Options</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var m in Model)
+            {
+                <tr>
+                    <td>@m.InterviewID</td>
+                    <td>@m.Description</td>
+
+                    <td><a asp-action="Edit" asp-controller="Feedback" asp-route-id="@m.Id">Edit</a></td>
+                    <td><a asp-action="Delete" asp-controller="Feedback" asp-route-id="@m.Id">Delete</a></td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

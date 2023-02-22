@@ -13,7 +13,7 @@ namespace HRM.ApplicationCore.Contract.Service
         Task<int> AddEmployeeStatusAsync(EmployeeStatusRequestModel model);
         Task<int> UpdateEmployeeStatusAsync(EmployeeStatusRequestModel model);
         Task<int> DeleteEmployeeStatusAsync(int id);
-        Task<EmployeeStatusResponseModel> GetCandidateByIdAsync(int id);
-        Task<IEnumerable<EmployeeStatusResponseModel>> GetAllCandidateAsync();
+        Task<EmployeeStatusResponseModel> GetEmployeeStatusByIdAsync(int id);
+        Task<IEnumerable<EmployeeStatusResponseModel>> GetAllEmployeeStatusAsync();
     }
 }

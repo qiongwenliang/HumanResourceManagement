@@ -1,0 +1,31 @@
+﻿@model InterviewRequestModel
+<div class="container">
+    <form asp-controller="Interview" asp-action="Create" method="post">
+        <div class="my-5 row col-12">
+            <label for="SubmissionId">SubmissionId</label>
+            <input asp-for="SubmissionId" class="form-control" />
+            <span asp-validation-for="SubmissionId"></span>
+        </div>
+        <div class="my-5 row col-12">
+            <label for="InterviewRound">InterviewRound</label>
+            <input asp-for="InterviewRound" class="form-control" />
+            <span asp-validation-for="InterviewRound"></span>
+        </div>
+        <div class="my-5 row col-12">
+            <label for="InterviewTypeID">InterviewTypeID</label>
+            <input asp-for="InterviewTypeID" class="form-control" />
+            <span asp-validation-for="InterviewTypeID"></span>
+        </div>
+        <div class="my-5 row col-12">
+            <label for="InterviewStatusID">InterviewStatusID</label>
+            <input asp-for="InterviewStatusID" class="form-control" />
+            <span asp-validation-for="InterviewStatusID"></span>
+        </div>
+        <div class="my-5 row col-12 input-group date" data-provide="datepicker">
+            <label for="InterviewDate">Interviewer Date</label>
+            <input asp-for="InterviewDate" class="form-control" />
+            <span asp-validation-for="InterviewDate"></span>
+        </div>
+        <input type="submit" value="Add Interview" class="btn btn-primary" />
+    </form>
+</div>

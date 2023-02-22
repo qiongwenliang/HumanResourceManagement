@@ -13,4 +13,4 @@ namespace HRM.ApplicationCore.Model.Request
         public bool IsActive { get; set; }
     }
 }
-}
+

@@ -1,0 +1,32 @@
+﻿@model IEnumerable<InterviewStatusResponseModel>;
+
+<div class="page-header">
+    <h1>List of Interview Status</h1>
+</div>
+
+<a asp-action="Create" asp-controller="InterviewStatus">Add New Interview Status</a>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Type</th>
+            <th>Is Active</th>
+            <th colspan="2">Options</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var m in Model)
+            {
+                <tr>
+                    <td>@m.ID</td>
+                    <td>@m.Type</td>
+                    <td>@m.IsActive</td>
+                    <td><a asp-action="Edit" asp-controller="InterviewStatus" asp-route-id="@m.ID">Edit</a></td>
+                    <td><a asp-action="Delete" asp-controller="InterviewStatus" asp-route-id="@m.ID">Delete</a></td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

@@ -1,0 +1,27 @@
+﻿@model UserRoleResponseModel
+<div class="container">
+    <form asp-controller="UserRole" asp-action="Edit" method="post">
+        <input type="hidden" asp-for="Id" />
+        <div class="my-5 row col-12">
+            <label for="UserId">UserId</label>
+            <select asp-for="UserId" class="form-control">
+                @foreach (var item in ViewBag.UserList)
+                {
+                    <option value="@item.Value">@item.Text</option>
+                }
+            </select>
+            <span asp-validation-for="UserId"></span>
+        </div>
+        <div class="my-5 row col-12">
+            <label for="RoleId">RoleId</label>
+            <select asp-for="RoleId" class="form-control">
+                @foreach (var item in ViewBag.RoleList)
+                {
+                    <option value="@item.Value">@item.Text</option>
+                }
+            </select>
+            <span asp-validation-for="RoleId"></span>
+        </div>
+        <input type="submit" value="Update User Role" class="btn btn-primary" />
+    </form>
+</div>

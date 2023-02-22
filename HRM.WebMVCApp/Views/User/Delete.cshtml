@@ -1,0 +1,22 @@
+﻿@model UserResponseModel
+<div class="container">
+    <form asp-controller="User" asp-action="Delete" method="post">
+        <input type="hidden" asp-for="Id" />
+        <div class="my-5 row col-12">
+            <label for="UserName">UserName</label>
+            <input asp-for="UserName" class="form-control" disabled />
+            <span asp-validation-for="UserName"></span>
+        </div>
+        <div class="my-5 row col-12">
+            <label for="EmailId">EmailId</label>
+            <input asp-for="EmailId" class="form-control" disabled />
+            <span asp-validation-for="EmailId"></span>
+        </div>
+        <div class="my-5 row col-12">
+            <label for="Password">Password</label>
+            <input asp-for="Password" class="form-control" disabled />
+            <span asp-validation-for="Password"></span>
+        </div>
+        <input type="submit" value="Add User" class="btn btn-danger" />
+    </form>
+</div>

@@ -1,0 +1,17 @@
+﻿@model InterviewTypeResponseModel
+<div class="container">
+    <form asp-controller="InterviewType" asp-action="Edit" method="post">
+        <input type="hidden" asp-for="Id" />
+        <div class="my-5 row col-12">
+            <label for="Type">Type</label>
+            <input asp-for="Type" class="form-control" />
+            <span asp-validation-for="Type"></span>
+        </div>
+        <div class="my-5 row col-12 form-check">
+            <label for="IsActive">IsActive</label>
+            <input type="checkbox" class="form-check-input" asp-for="IsActive">
+            <span asp-validation-for="IsActive"></span>
+        </div>
+        <input type="submit" value="Update Interview Type" class="btn btn-primary" />
+    </form>
+</div>

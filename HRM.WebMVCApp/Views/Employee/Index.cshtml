@@ -1,0 +1,38 @@
+﻿@model IEnumerable<EmployeeResponseModel>;
+
+<div class="page-header">
+    <h1>List of Employees</h1>
+</div>
+
+<a asp-action="Create" asp-controller="Employee">Add New Employee</a>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone Number</th>
+            <th>Email Address</th>
+            <th>Date of Birth</th>
+            <th>SSN</th>
+            <th colspan="2">Options</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach(var m in Model)
+            {
+                <tr>
+                    <td>@m.FirstName</td>
+                    <td>@m.LastName</td>
+                    <td>@m.PhoneNumber</td>
+                    <td>@m.EmailAddress</td>
+                    <td>@m.DateOfBirth</td>
+                    <td>@m.SSN</td>
+                    <td><a asp-action= "Edit" asp-controller="Employee" asp-route-id="@m.Id">Edit</a></td>
+                    <td><a asp-action= "Delete" asp-controller="Employee" asp-route-id="@m.Id">Delete</a></td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

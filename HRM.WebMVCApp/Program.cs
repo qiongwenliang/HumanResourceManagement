@@ -45,6 +45,21 @@ builder.Services.AddScoped<IUserRoleRepositoryAsync, UserRoleRepositoryAsync>();
 //dependency injection for services
 builder.Services.AddScoped<ICandidateServiceAsync, CandidateServiceAsync>();
 //inject dependency
+builder.Services.AddScoped<IEmployeeServiceAsync, EmployeeServiceAsync>();
+builder.Services.AddScoped<IJobRequirementServiceAsync, JobRequirementServiceAsync>();
+builder.Services.AddScoped<IEmployeeRoleServiceAsync, EmployeeRoleServiceAsync>();
+builder.Services.AddScoped<IEmployeeStatusServiceAsync, EmployeeStatusServiceAsync>();
+builder.Services.AddScoped<IEmployeeTypeServiceAsync, EmployeeTypeServiceAsync>();
+builder.Services.AddScoped<IJobCategoryServiceAsync, JobCategoryServiceAsync>();
+builder.Services.AddScoped<IInterviewTypeServiceAsync, InterviewTypeServiceAsync>();
+builder.Services.AddScoped<IInterviewStatusServiceAsync, InterviewStatusServiceAsync>();
+builder.Services.AddScoped<IInterviewServiceAsync, InterviewServiceAsync>();
+builder.Services.AddScoped<IInterviewFeedbackServiceAsync, InterviewFeedbackServiceAsync>();
+builder.Services.AddScoped<ISubmissionServiceAsync, SubmissionServiceAsync>();
+builder.Services.AddScoped<IUserServiceAsync, UserServiceAsync>();
+builder.Services.AddScoped<IUserRoleServiceAsync, UserRoleServiceAsync>();
+builder.Services.AddScoped<IRoleServiceAsync, RoleServiceAsync>();
+
 
 
 

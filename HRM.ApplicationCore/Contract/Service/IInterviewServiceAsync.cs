@@ -12,7 +12,7 @@ namespace HRM.ApplicationCore.Contract.Service
     {
         Task<int> AddInterviewAsync(InterviewRequestModel model);
         Task<int> UpdateInterviewAsync(InterviewRequestModel model);
-        Task<int> DeleteCandidateAsync(int id);
+        Task<int> DeleteInterviewAsync(int id);
         Task<InterviewResponseModel> GetInterviewByIdAsync(int id);
         Task<IEnumerable<InterviewResponseModel>> GetAllInterviewAsync();
     }

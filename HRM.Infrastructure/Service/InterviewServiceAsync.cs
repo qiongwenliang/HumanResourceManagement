@@ -34,7 +34,7 @@ namespace HRM.Infrastructure.Service
             return interviewRepositoryAsync.InsertAsync(interview);
         }
 
-        public Task<int> DeleteCandidateAsync(int id)
+        public Task<int> DeleteInterviewAsync(int id)
         {
             return interviewRepositoryAsync.DeleteAsync(id);
         }

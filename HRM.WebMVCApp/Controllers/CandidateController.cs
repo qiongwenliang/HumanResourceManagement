@@ -5,8 +5,8 @@ using HRM.ApplicationCore.Model.Response;
 using Microsoft.AspNetCore.Mvc;
 
 
-//MVC is taking the input from the user and send it to repository. When you want to display the data, MVC will take the data from services,
-//and display it to the user. So there must not be any logic entered into MVC.
+//MVC is taking the input from the user and send it to repository. When you want to display the data, MVC will take the
+//data from services, and display it to the user. So there must not be any logic entered into MVC.
 
 namespace HRM.WebMVCApp.Controllers
 {
