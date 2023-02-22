@@ -1,0 +1,15 @@
+F:\ASP.NetProjects\HumanResourceManagement\HRM.Infrastructure\bin\Debug\net6.0\HRM.Infrastructure.deps.json
+F:\ASP.NetProjects\HumanResourceManagement\HRM.Infrastructure\bin\Debug\net6.0\HRM.Infrastructure.dll
+F:\ASP.NetProjects\HumanResourceManagement\HRM.Infrastructure\bin\Debug\net6.0\HRM.Infrastructure.pdb
+F:\ASP.NetProjects\HumanResourceManagement\HRM.Infrastructure\bin\Debug\net6.0\HRM.ApplicationCore.dll
+F:\ASP.NetProjects\HumanResourceManagement\HRM.Infrastructure\bin\Debug\net6.0\HRM.ApplicationCore.pdb
+F:\ASP.NetProjects\HumanResourceManagement\HRM.Infrastructure\obj\Debug\net6.0\HRM.Infrastructure.csproj.AssemblyReference.cache
+F:\ASP.NetProjects\HumanResourceManagement\HRM.Infrastructure\obj\Debug\net6.0\HRM.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASP.NetProjects\HumanResourceManagement\HRM.Infrastructure\obj\Debug\net6.0\HRM.Infrastructure.AssemblyInfoInputs.cache
+F:\ASP.NetProjects\HumanResourceManagement\HRM.Infrastructure\obj\Debug\net6.0\HRM.Infrastructure.AssemblyInfo.cs
+F:\ASP.NetProjects\HumanResourceManagement\HRM.Infrastructure\obj\Debug\net6.0\HRM.Infrastructure.csproj.CoreCompileInputs.cache
+F:\ASP.NetProjects\HumanResourceManagement\HRM.Infrastructure\obj\Debug\net6.0\HRM.Infrastructure.csproj.CopyComplete
+F:\ASP.NetProjects\HumanResourceManagement\HRM.Infrastructure\obj\Debug\net6.0\HRM.Infrastructure.dll
+F:\ASP.NetProjects\HumanResourceManagement\HRM.Infrastructure\obj\Debug\net6.0\refint\HRM.Infrastructure.dll
+F:\ASP.NetProjects\HumanResourceManagement\HRM.Infrastructure\obj\Debug\net6.0\HRM.Infrastructure.pdb
+F:\ASP.NetProjects\HumanResourceManagement\HRM.Infrastructure\obj\Debug\net6.0\ref\HRM.Infrastructure.dll

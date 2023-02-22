@@ -1,0 +1,12 @@
+F:\ASP.NetProjects\HumanResourceManagement\HRM.ApplicationCore\bin\Debug\net6.0\HRM.ApplicationCore.deps.json
+F:\ASP.NetProjects\HumanResourceManagement\HRM.ApplicationCore\bin\Debug\net6.0\HRM.ApplicationCore.dll
+F:\ASP.NetProjects\HumanResourceManagement\HRM.ApplicationCore\bin\Debug\net6.0\HRM.ApplicationCore.pdb
+F:\ASP.NetProjects\HumanResourceManagement\HRM.ApplicationCore\obj\Debug\net6.0\HRM.ApplicationCore.csproj.AssemblyReference.cache
+F:\ASP.NetProjects\HumanResourceManagement\HRM.ApplicationCore\obj\Debug\net6.0\HRM.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASP.NetProjects\HumanResourceManagement\HRM.ApplicationCore\obj\Debug\net6.0\HRM.ApplicationCore.AssemblyInfoInputs.cache
+F:\ASP.NetProjects\HumanResourceManagement\HRM.ApplicationCore\obj\Debug\net6.0\HRM.ApplicationCore.AssemblyInfo.cs
+F:\ASP.NetProjects\HumanResourceManagement\HRM.ApplicationCore\obj\Debug\net6.0\HRM.ApplicationCore.csproj.CoreCompileInputs.cache
+F:\ASP.NetProjects\HumanResourceManagement\HRM.ApplicationCore\obj\Debug\net6.0\HRM.ApplicationCore.dll
+F:\ASP.NetProjects\HumanResourceManagement\HRM.ApplicationCore\obj\Debug\net6.0\refint\HRM.ApplicationCore.dll
+F:\ASP.NetProjects\HumanResourceManagement\HRM.ApplicationCore\obj\Debug\net6.0\HRM.ApplicationCore.pdb
+F:\ASP.NetProjects\HumanResourceManagement\HRM.ApplicationCore\obj\Debug\net6.0\ref\HRM.ApplicationCore.dll

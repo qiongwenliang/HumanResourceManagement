@@ -1,0 +1,40 @@
+﻿@model CandidateRequestModel;
+<div class="container">
+    <form asp-controller="Candidate" asp-action="Create" method="post">
+
+    <!--in form we can add input, and it will have some default submit action, and we can send that input to the server side-->
+    <!--so if you want to send information to the server, you need to tell the server which information and in which form you
+        want to send to it, to do this, you need to use the form control-->
+    <!--so you are going to send the data to the create method in the candidate controller and then you will post it-->
+        <div class="my-5 row col-12">
+            <label for="FirstName">First Name</label>
+            <input asp-for="FirstName" class="form-control"/>
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+
+            <!--this FirstName is a property that come from CandidateRequestModel-->
+            <!--asp-for is tag helper, it's in ViewImports.cshtml, addTagHelper-->
+        </div>
+
+        <div class="my-5 row col-12">
+            <label for="LastName">Last Name</label>
+            <input asp-for="LastName" class="form-control"/>
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+
+        <div class="my-5 row col-12">
+            <label for="Mobile">Mobile</label>
+            <input asp-for="Mobile" class="form-control"/>
+            <span asp-validation-for="Mobile" class="text-danger"></span>
+        </div>
+
+        <div class="my-5 row col-12">
+            <label for="EmailId">Email Id</label>
+            <input asp-for="EmailId" class="form-control"/>
+            <span asp-validation-for="EmailId" class="text-danger"></span>
+        </div>
+
+        <input type="submit" value="Add Candidate" class="btn btn-primary"/>
+    </form>
+</div>
+
+
